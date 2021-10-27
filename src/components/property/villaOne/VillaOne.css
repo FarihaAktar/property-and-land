@@ -1,0 +1,46 @@
+.villaOne{
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+}
+.villaOne-img-box{
+    width: 70%;
+}
+.villaOne-img{
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+.villaOne-img-one{
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+
+/* villa box two */
+.villaOne-box-detail{
+    width: 35%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.custom-width{
+    width: 55%;
+}
+
+.villaOne-box-three{
+    width: 75%;
+
+}
+.button{
+    background-color: #d7ac81;
+    padding: 10px 40px;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+}
+.button:hover{
+    background-color: #aa7642;
+    color: #fff;
+}
