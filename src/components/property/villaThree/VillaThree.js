@@ -9,7 +9,12 @@ const VillaThree = () => {
             <div className='villaOne-img-box'>
                 <img className='villaOne-img' src={img1} alt="" />
             </div>
-            <div className='villaOne-box-two mt-3'>
+            <div className='villaOne-box-two d-flex mt-3'>
+            <div className='villaOne-box-detail'>
+                    <h3 className='green fst-italic'>Modern Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, porro? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, sit? Atque, reprehenderit!</p>
+                    <button className='button'>Select</button>
+                </div>
                 <div className='custom-width ms-auto'>
                     <img className='villaOne-img-one' src={img2} alt="" />
                 </div>
